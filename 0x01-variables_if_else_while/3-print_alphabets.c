@@ -1,12 +1,12 @@
 /*
- * File: 4-print_alphabt.c
- * Auth: AlaeCoding90
+ * File: 3-print_alphabets.c
+ * Auth: Alae LGATT
  */
 
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase, except for q and e.
+ * main - Prints the alphabet in lowercase, and then in uppercase.
  *
  * Return: Always 0.
  */
@@ -15,10 +15,10 @@ int main(void)
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
-	}
+		putchar(letter);
+
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
 
 	putchar('\n');
 
