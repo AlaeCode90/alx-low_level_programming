@@ -10,14 +10,21 @@
  *        only using putchar and without char variables.
  * Return: Always 0.
  */
-int main(void)
-{
-	int num;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
+#include <stdio.h>
 
-	putchar('\n');
+int main() {
+    int i;
 
-	return (0);
+    for(i=0; i<16; i++) {
+        if(i<10) {
+            putchar(i+'0');
+        } else {
+            putchar(i-10+'a');
+        }
+    }
+
+    putchar('\n');
+
+    return 0;
 }
