@@ -16,16 +16,5 @@ void print_putchar(void)
     _putchar('a');
     _putchar('r');
     _putchar('\n');
+    return(0);
 }
-
-/**
- * _putchar - Writes a character to stdout
- * @c: The character to print
- *
- * Return: On success 1, otherwise -1
- */
-int _putchar(char c)
-{
-    return (write(1, &c, 1));
-}
-
