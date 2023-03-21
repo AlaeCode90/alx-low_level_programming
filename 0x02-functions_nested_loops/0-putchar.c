@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_putchar - Prints the string "_putchar" using _putchar
  *
@@ -16,6 +17,7 @@ void print_putchar(void)
     _putchar('r');
     _putchar('\n');
 }
+
 /**
  * _putchar - Writes a character to stdout
  * @c: The character to print
@@ -26,3 +28,4 @@ int _putchar(char c)
 {
     return (write(1, &c, 1));
 }
+
