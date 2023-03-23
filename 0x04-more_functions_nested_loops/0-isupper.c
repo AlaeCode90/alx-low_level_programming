@@ -1,21 +1,20 @@
-# include <stdio.h>
-#include <stdlib.h>
-
+#include "main.h"
 /**
-* main - Entry point
-* 
-* return - always 0 if (success)
+* _isupper - checks for uppercase character
+* @c: Variable text
+* Return: Always 0.
 */
+int _isupper(int c)
+{
 
-int _putchar(char c);
+
+	if (c >= 'A' && c <= 'Z')
+	{
+	return (1);
+	}
+	else
 {
-char c
-if 
-{
-for ( c = 'A' ; c <= 'Z' ; c++)
-putchar(c);
-return (1);
+	return (0);
 }
-else 
-return(0);
+
 }
