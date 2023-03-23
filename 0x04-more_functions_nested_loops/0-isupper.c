@@ -7,7 +7,7 @@
 * return - always 0 if (success)
 */
 
-int main(void)
+int _putchar(char c);
 {
 char c
 if 
