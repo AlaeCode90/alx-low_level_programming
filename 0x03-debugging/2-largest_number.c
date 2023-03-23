@@ -32,7 +32,7 @@ else if (c > a && c > b)
 {
 	largest = c;
 }
-else (c > b && c > a)
+else 
 {
 	largest = c;
 }
