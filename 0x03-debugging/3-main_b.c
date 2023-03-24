@@ -9,8 +9,8 @@
 
 int main(void)
 {
-int day;
 int month;
+int day;
 int year;
 
 month = 2;
