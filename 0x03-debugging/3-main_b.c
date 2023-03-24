@@ -18,10 +18,10 @@ day = 29;
 year = 2000;
 
 printf("Date : %02d%02d%04d\n", month, day, year);
-day = convert_day(month,day);
+day = convert_day(month, day);
 
-print_remaining_days(2,28,2000);
-print_remaining_days(1,1,2000);
+print_remaining_days(2, 28, 2000);
+print_remaining_days(1, 1, 2000);
 
-return(0);
+return (0);
 }
