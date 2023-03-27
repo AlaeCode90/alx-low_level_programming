@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /** 
  * reset_to_98.c updates the value of the variable that the pointer points to 
@@ -7,7 +7,7 @@
  * return - always 0 if (successful)
  */
 
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 	*n = 98;
 }

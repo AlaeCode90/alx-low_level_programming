@@ -1,6 +1,3 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
-
 /* This file constains all the prototypes of the projects */
 /* t0. reset_to_98 - this function reset all to 98 */
 void reset_to_98(int *n);
