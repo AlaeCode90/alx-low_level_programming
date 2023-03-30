@@ -1,21 +1,25 @@
-#include <stdio.h>
-#include <string.h>
-
+#include "main.h"
 /**
- * main - Entry point
+ *print_number - prints an integer
  *
- * Return: Always 0 (Success)
+ *@n:integer params
+ *
+ *Return: 0
+ *
  */
-int main(void)
+void print_number(int n)
 {
-int n;
-int a[5];
-int *p;
+	unsigned int x;
 
-a[2] = 1024;
-p = &n;
-memset((void *)((char *)&n + sizeof(int) * 2), 98, sizeof(int));
-printf("a[2] = %d\n", a[2]);
-return (0);
+	x = n;
+	if (n < 0)
+	{
+		_putchar('-');
+		x = -n;
+	}
+	if (x / 10 != 0)
+	{
+		print_number(x / 10);
+	}
+	_putchar((x % 10) + '0');
 }
-
