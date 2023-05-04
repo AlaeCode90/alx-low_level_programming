@@ -1,12 +1,12 @@
-i#include "main.h"
+#include "main.h"
 
 /**
-*flip_bits - gets the number of bits to flip to get from n to m
-*@n: initial number
-*@m: final number
-*
-*Return: the number of flipped bits
-*/
+ * flip_bits - number of bits you would need to flip
+ * to get from one number to another
+ * @n: parameter
+ * @m: destiny
+ * Return: nflips
+ */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned int i, nflips = 0;
